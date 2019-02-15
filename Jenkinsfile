@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'who > a.txt'
+                sh 'whoami > a.txt'
             }
         }
     }
